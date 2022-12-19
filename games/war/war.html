@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>War</title>
+</head>
+
+<body id="war-body">
+
+    <!--NAV BAR-->
+    <nav>
+        <h2 id="nav-head"><a href="../../index.html">MINIGAME MADNESS &#127918;</a></h2>
+        <ul>
+            <li class="nav-a"><a href="../games.html">Games</a></li>
+            <li class="nav-a"><a href="../../index.html">Home</a></li>
+        </ul>
+    </nav>
+    <!------------>
+
+    <h1 id="war-head">WAR!</h1>
+    <h2 class="war-heads">Player 1: <span id="player1-score">0</span></h2>
+    <div id="player1-cards">
+        <img src="../back.png" alt="">
+    </div>
+
+    <h2 class="war-heads">Player 2: <span id="player2-score">0</span></h2>
+    <div id="player2-cards">
+        <img src="../back.png" alt="">
+    </div>
+
+    <p class="turn-num-p"><span class="turn-num">26</span> Turns Remaining</p>
+    <p class="say-winner"></p>
+
+    <div class="war-buttons">
+        <button id="war-draw">DRAW!</button>
+        <button id="war-reset">New Game</button>
+    </div>
+
+    <script src="war.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+</head>
+
+<body class="snake-body-main">
+
+    <!--NAV BAR-->
+    <nav>
+        <h2 id="nav-head"><a href="../../index.html">MINIGAME MADNESS &#127918;</a></h2>
+        <ul>
+            <li class="nav-a"><a href="../games.html">Games</a></li>
+            <li class="nav-a"><a href="../../index.html">Home</a></li>
+        </ul>
+    </nav>
+    <!------------>
+    <div class="snake-body">
+        <h1 class="snake-head">Snake Game</h1>
+        <div class="button-div">
+            <button id="snake-reset">New Game</button>
+        </div>
+        <canvas id="snake-game" width="398" height="398"></canvas>
+        <div class="snake-buttons">
+            <p class="snake-text">Use buttons or arrow keys</p>
+            <div>
+                <button id="up">UP</button>
+            </div>
+            <div>
+                <button id="left">LEFT</button>
+                <button id="right">RIGHT</button>
+            </div>
+            <div>
+                <button id="down">DOWN</button>
+            </div>
+
+        </div>
+
+        <script src="snakeGame.js"></script>
+    </div>
+</body>
+
+</html>
